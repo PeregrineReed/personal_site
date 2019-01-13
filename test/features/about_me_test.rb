@@ -5,6 +5,6 @@ class AboutMeTest < CapybaraTestCase
     visit '/about'
 
     assert page.has_content?("About Me!\nHere's some stuff to know.")
-    assert_equal 200, page.status
+    assert_equal 200, page.status_code
   end
 end
