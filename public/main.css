@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: #9ABCA7;
+  background-color: #76BED0;
   font-family: 'Thasadith';
 }
 
@@ -10,12 +10,12 @@ header {
   justify-content: center;
   background-image: repeating-linear-gradient(
   45deg,
-  #CEB7B3,
-  #CEB7B3 5px,
-  #333232 5px,
-  #333232 10px
+  #878E88,
+  #878E88 5px,
+  #76BED0 5px,
+  #76BED0 10px
   );
-  color: ghostwhite;
+  color: #FFFFFF;
   height: 40vh;
   font-weight: 700;
   font-size: 50px;
@@ -24,35 +24,34 @@ header {
 main {
   text-align: center;
   height: 60vh;
-  background-image: url("../assets/space_egg.png");
 }
 
 a {
   display: inline-block;
   text-decoration: none;
   background-color: crimson;
-  color: ghostwhite;
+  color: #FFFFFF;
   padding: 10px;
   border-radius: 3px;
   transition: transform .4s;
 }
 
-div {
+figure {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-b {
+img {
   height: 60%;
   width: 60%;
   margin-top: 12vh;
-  background-image: linear-gradient(to right, #F7B2AD, #B7B7B7);
+  background-image: linear-gradient(to right, #F55D3E, #F7CB15);
 }
 
 a:hover {
   background-color: red;
   transform: scale(1.2) translate(-12%, -12%);
   box-shadow: 5px 10px 10px -2px #2F1F4C;
-  color: white;
+  color: #FFFFFF;
 }
